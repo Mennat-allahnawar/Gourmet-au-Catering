@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+.head {
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 0 25px 0 black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+}
+
+.h1 {
+  font-size: 50px;
+}
+.header-headline {
+  bottom: 0px;
+  position: absolute;
+  padding: 10px;
+}
+
+.header img {
+  width: 100%;
+}
+
+.section {
+  justify-content: center;
+  display: flex;
+}
+
+.section h2 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 200px;
+  width: 500px;
+}
+.section h3 {
+  margin: 50px 0;
+  font-size: 20px;
+  text-align: center;
+  width: 500px;
+}
+.section p {
+  font-size: 15px;
+  width: 500px;
+  text-align: center;
+}
+
+.card {
+  width: 40%;
+  height: 500px;
+  padding: 50px 0 0 50px;
+  margin-bottom: 150px;
+}
+
+.card h2 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+  width: 500px;
+  margin-top: 100px;
+}
+.card p {
+  font-size: 18px;
+  text-align: center;
+  width: 500px;
+}
+.firstspan {
+  background-color: #dad9d9;
+}
+.incard {
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+  width: 500px;
+  color: rgb(139, 139, 139);
+}
+
+.cardimg {
+  margin-top: 170px;
+  margin-bottom: 100px;
+}
+
+#menu {
+  padding: 0;
+}
+
+form {
+  margin: 40px;
+}
+
+.content {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.content h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.contact {
+  color: rgb(34, 131, 211);
+  font-size: 20px;
+}
+form input {
+  display: block;
+  margin: 50px;
+  width: 80%;
+  height: 70px;
+  border-width: 0 0 2px 0;
+  border-color: black;
+  font-size: 15px;
+}
+
+.btn {
+  width: 200px;
+  color: black;
+  background-color: grey;
+}
